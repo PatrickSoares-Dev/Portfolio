@@ -1,10 +1,18 @@
+import Navbar from "../../Componentes/Navbar/Navbar";
+import Introducao from "../../Componentes/Introducao/Introducao";
+import Sobre from "../../Componentes/Sobre/Sobre";
+import Tecnologias from "../../Componentes/Tecnologias/Tecnologias";
+
+
 export default function Inicio(){
-    return (
-        <section>
-            <h3>Inicio</h3>
+    return (        
+        <div>
+            <Navbar />  
             <div>
-                <h3>Seja bem vindo ao meu portfolio.</h3>
-            </div>
-        </section>
+                <Introducao/> 
+                <Sobre /> 
+                <Tecnologias />
+            </div>                                             
+        </div>                      
     );
 }
