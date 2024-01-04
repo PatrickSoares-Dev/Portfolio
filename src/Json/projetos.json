@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "Título": "Modavo",
+        "SubTítulo": "CPaaS",
+        "sinopse": "Papel de Liderança em Desenvolvimento: Orquestrei o design e a implementação de um portal CPaaS abrangente, alcançando a criação bem-sucedida de APIs de SMS, Campanhas SMS, Painéis, 2FA, Portabilidade Numérica, Text-To-Speech e funcionalidades de Interconexão. Contando com um painel administrativo.",
+        "img_1": "/assets/home-modavo-0CEFilro.png",
+        "img_2": "/assets/dashboard-modavo-Zv1efsYQ.png",        
+        "img_3": "/assets/campanha-modavo-8bQaD6TQ.png",
+        "img_4": "/assets/consultacdr-modavo-yj6wkP6Z.png",
+        "link": "",
+        "link2": "https://modavo.com.br/",
+        "ferramentas": {
+            "fer_1": "JavaScript",
+            "fer_2": "PHP",
+            "fer_3": "Composer",
+            "fer_4": "MySQL",
+            "fer_5": "Postman"
+        }
+    },    
+    {
+        "id": 2,
+        "Título": "Ecommerce CorgiSHOP",
+        "SubTítulo": "React e AWS",
+        "sinopse": "O projeto CorgiSHOP é um e-commerce desenvolvido em React e Node.js, destinado a amantes de animais de estimação e seus companheiros de quatro patas. O aplicativo web foi criado com propósitos educacionais e foi projetado para hospedar servidores e bancos de dados na AWS.",
+        "img_1": "/assets/home-corgishop-iDAHQ31o.png",
+        "img_2": "/assets/checkout-corgishop-leDjr7wJ.png",
+        "img_3": "/assets/login-corgishop-x9vGnyky.png",
+        "img_4": "/assets/cart-corgishop-pRYZZ0PT.png",
+        "link": "https:/github.com/PatrickSoares-Dev/CorgiSHOP",
+        "link2": "https://www.youtube.com/watch?v=4boWbRrmfLM&t=13s",
+        "ferramentas": {
+            "fer_1": "React",
+            "fer_2": "Node",
+            "fer_3": "AWS ",
+            "fer_4": "Sequelize",
+            "fer_5": "Axios"
+        }
+    },
+    {
+        "id": 3,
+        "Título": "Fast SMS",
+        "SubTítulo": "CRUD com API",
+        "sinopse": "O projeto FastSMS é uma API desenvolvida em PHP para facilitar o gerenciamento de mensagens SMS. Essa API oferece uma série de endpoints que permitem operações diversas, desde registro de usuários até autenticação de dois fatores. Foi feito com propósitos educacionais.",
+        "img_1": "assets/home-fastsms-pJe-EG9z.png",
+        "img_2": "assets/register-fastsms-hQq4xZ8I.png",
+        "img_3": "assets/users-fastsms-TB97RlTy.png",
+        "img_4": "assets/bd-fastsms-KO-vi9iY.png",
+        "link": "https:/github.com/PatrickSoares-Dev/FastSMS-CRUD",
+        "link2": "https://www.youtube.com/watch?v=Dxa2ugxCjEE",
+        "ferramentas": {
+            "fer_1": "JavaScript",
+            "fer_2": "PHP",
+            "fer_3": "Composer",
+            "fer_4": "MySQL",
+            "fer_5": "Postman"
+        }
+    },   
+    {
+        "id": 4,
+        "Título": "Gestão de Redes Escolares",
+        "SubTítulo": "C#",
+        "sinopse": "O Sistema de Cadastro Escolar é uma aplicação desenvolvida em C# utilizando o framework .NET, que permite o gerenciamento de escolas, turmas, alunos e matérias em um banco de dados. A aplicação possui um CRUD e relacionamentos entre as tabelas.",
+        "img_1": "assets/home-gestaoescolar-x7bTZdBp.png",
+        "img_2": "assets/alunos-gestaoescolar-L1MSnDSN.jpg",
+        "img_3": "assets/addlaluno-gestaoescolar-3V8oOiRH.png",
+        "img_4": "assets/escola-gestaoescolar-xbsEJELY.png",
+        "link": "https:/github.com/PatrickSoares-Dev/Pagina-inicial",
+        "link2": "",
+        "ferramentas": {
+            "fer_1": "C#",
+            "fer_2": ".NET",
+            "fer_3": "ASP.NET MVC",
+            "fer_4": "Javascript",
+            "fer_5": "SQL"
+        }
+    }
+]

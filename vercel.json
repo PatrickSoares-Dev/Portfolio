@@ -1,5 +1,10 @@
 {
-    "rewrites":  [
-      {"source": "/(.*)", "destination": "/"}
-    ]
+  "version": 2,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 200, "dest": "/index.html" }
+  ],
+  "env": {
+    "PUBLIC_VARIABLE": "public-value"
   }
+}

@@ -5,7 +5,49 @@
 
 body {
   /* Fundo gradiente */
-  background: linear-gradient(135deg, #1f2937 0%, #253043 100%);
+  font-family: 'Saira', sans-serif;
+  background-color: rgb(31 41 55);
   position: relative;
+}
+
+#navbar{
+  background-color: rgb(31 41 55);
+}
+
+.text-target{
+  width: 20px;
+  height: 20px;
+  border-radius: 25%; /* Define a borda como circular, mas ao aumentar o valor, transforma-se em um quadrado */
+  display: inline-block;
+  background: rgb(163 230 53)
+}
+
+.border-blue-600 {
+   --tw-border-opacity: 1; 
+   border-color: rgb(163 230 53) !important; 
+}
+
+.hover\:text-blue-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(163 230 53) !important; 
+}
+
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color:  rgb(163 230 53) !important; 
+}
+
+.hover\:text-gray-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(163 230 53) !important; 
+}
+
+#btnSubmit {
+  background-color: #65a30d !important;
+}
+#btnSubmit:hover {
+
+  background-color: #51830a !important;
+  
 }
 

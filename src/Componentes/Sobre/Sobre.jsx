@@ -1,108 +1,67 @@
-import { useState } from 'react';
+import Tecnologias from "../../Componentes/Tecnologias/Tecnologias";
+import Laptop from "/src/assets/img/laptop.png"
 
-export default function Sobre() {
-    const [mostrarMais, setMostrarMais] = useState(false);
-
-    const handleToggleMais = () => {
-        setMostrarMais(!mostrarMais);
-    };
-
+export default function Sobre(){
     return (
-        <div className="justify-center items-center">
-            <div className="text-gray-100">
-                <div className="">
-                    <h2 className="xl:text-2xl 2xl:text-4xl text-center font-normal align-center bg-black p-4 bg-opacity-10 mt-8">
-                        Experiência
-                    </h2>                    
-                        <ol className="border-l border-neutral-300 dark:border-lime-400 bg-black p-4 bg-opacity-10 xl:ml-48 xl:mr-48 xl:mt-12 xl:mb-12 2xl:ml-72 2xl:mr-72 2xl:mt-12 2xl:mb-12 rounded-lg shadow-md">
-                            <li>
-                                <div class="flex-start flex items-center pt-3">
-                                    <div
-                                        class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
-                                    <p class="text-md text-neutral-500 dark:text-neutral-300">
-                                        08 / 2023 - O momento
-                                    </p>
-                                </div>
-                                <div className="mb-2 ml-4 mt-2">
-                                    <h4 className="mb-1.5 text-xl font-semibold">Telecall - Analista de Sistemas I</h4>
-                                    <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                                        <p className='text-lime-400 font-semibold mb-2'>Linguagens e Tecnologias Utilizadas:</p>
-                                        <p className='text-white font-semibold'>C#, .NET CORE, Entity Framework, ASP.NET MVC, JavaScript, React, Node.js, SQL Server</p>
-                                        <br />
-                                        {mostrarMais ? (
-                                            <div>
-                                                <p className=''>
-                                                <span className='text-lime-400'>•</span>  Coordenador de desenvolvimento do portal CPaaS, abrangendo APIs de SMS, Campanhas SMS, Painéis, Autenticação de Dois Fatores (2FA), Portabilidade Numérica, Text-To-Speech e interconexão com C#. NET Core e JavaScript.
-                                                </p>
-                                                <p className='mt-2'>
-                                                <span className='text-lime-400'>•</span> Manutenção e sustentação de sistemas críticos.
-                                                </p>
-                                                <p className='mt-2'>
-                                                    <span className='text-lime-400'>•</span> Desenvolvi um BOT de verificação para gateways de pagamento integrados ao WordPress e bancos de dados, otimizando a gestão de créditos e validações bancárias.
-                                                </p>
-                                                <p className='mt-2'>
-                                                    <span className='text-lime-400'>•</span> Criei scripts e consultas SQL para geração estratégica de relatórios.
-                                                </p>
-                                                <p className='mt-2'>
-                                                    <span className='text-lime-400'>•</span> Construí com sucesso uma plataforma de E-commerce para comercializar os serviços CPaaS.
-                                                </p>
-                                                <p className='mt-2'>
-                                                    <span className='text-lime-400'>•</span> Elaborei um sistema de criptografia de arquivos para garantir a segurança de dados sensíveis.
-                                                </p>
-                                                <p className='mt-2'>
-                                                    <span className='text-lime-400'>•</span> Criei scripts e consultas SQL para geração estratégica de relatórios.
-                                                </p>
-                                                <button
-                                                    onClick={handleToggleMais}
-                                                    type="button"
-                                                    className="bg-lime-500 text-white px-4 py-2 rounded-md mt-6"
-                                                >
-                                                    Ver menos
-                                                </button>
-                                            </div>
-                                        ) : (
-                                            <div>
-                                                <p>
-                                                    • Coordenador de desenvolvimento do portal CPaaS, abrangendo APIs de SMS, Campanhas SMS, Painéis, Autenticação de Dois Fatores (2FA), Portabilidade Numérica, Text-To-Speech e interconexão com C#. NET Core e JavaScript.
-                                                </p>
-                                                <button
-                                                    onClick={handleToggleMais}
-                                                    type="button"
-                                                    className="bg-lime-500 text-white px-4 py-2 rounded-md mt-6"
-                                                >
-                                                    Ver mais
-                                                </button>
-                                            </div>
-                                        )}
-                                    </p>
-                                </div>
+        <section id="sobre">
+            <div className="justify-center items-center bg-gray-900 pb-12 ">
+                <div className="mx-auto max-w-5xl">
+                    <h2 className="xl:text-lg 2xl:text-xl font-medium align-center b-opacity-20 rounded-lg pt-16 text-white text-justify max-w-5xl">
+                        Olá! Sou o Patrick Oliveira, um desenvolvedor fullstack apaixonado de 21 anos, do Rio de Janeiro, RJ, Brasil.<br/>
+                        <br/>
 
-                                <div class="flex-start flex items-center pt-3">
-                                    <div
-                                        class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
-                                    <p class="text-md text-neutral-500 dark:text-neutral-300">
-                                        11 / 2022 - 08 / 2023
-                                    </p>
-                                </div>
-                                <div className="mb-6 ml-4 mt-2">
-                                    <h4 className="mb-1.5 text-xl font-semibold">Assistente de Desenvolvimento</h4>                               
-                                </div>
+                        Com 2 anos de experiência em React e .NET Core, construo sistemas completos. Meu inglês intermediário/avançado foi aprimorado ao longo da vida, entre cursos dedicados a conteúdos em inglês.<br/>
+                        <br/>
 
-                                <div class="flex-start flex items-center pt-3">
-                                    <div
-                                        class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
-                                    <p class="text-md text-neutral-500 dark:text-neutral-300">
-                                        07 / 2022 - 11 / 2023
-                                    </p>
-                                </div>
-                                <div className="mb-6 ml-4 mt-2">
-                                    <h4 className="mb-1.5 text-xl font-semibold">Estagiário de Desenvolvimento de Software</h4>                               
-                                </div>
-                            </li>
-                        </ol>     
-                                   
-                </div>
+                        Além do desenvolvimento, sou um entusiasta de conteúdos geek e jogos para PC. Vejo a tecnologia como um universo de possibilidades e estou sempre pronto para novos desafios.
+                    </h2>  
+                    
+                    <div className='flex col-2 items-center mt-8 justify-center'>
+                        <div>
+                            <a href="https://www.linkedin.com/in/patricksoares-dev/" target="_blank" rel="noopener noreferrer">
+                                <button class="bg-lime-600 hover:bg-lime-700 py-3 px-4 text-white cursor-pointer text-center inline-flex items-center me-2 mb-2 font-medium rounded-lg text-md">                                            
+                                    Visite-me no Linkedin  
+                                </button>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://github.com/PatrickSoares-Dev" target="_blank" rel="noopener noreferrer">
+                                <button type="button" className="text-white cursor-pointer bg-transparent hover:border-lime-400 focus:ring-4 focus:outline-none  font-medium rounded-lg text-md px-6 py-3 text-center inline-flex items-center border me-2 mb-2 shadow-md">                               
+                                        Visite-me no Github
+                                </button>  
+                            </a>  
+                        </div>                          
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 rounded-2xl bg-gray-800 bg-opacity-50 mt-8">   
+
+                        <div class="flex pt-24 pl-8 pb-16">
+
+                            <div class="mb-auto max-w-lg">
+
+                                <h1 class="xl:text-4xl 2xl:text-5xl font-bold text-white">Patrick Oliveira</h1>
+                                <h1 class="xl:text-2xl 2xl:text-2xl font-semi-bold text-lime-400 mb-6"> (Profissional)</h1>
+
+                                <p className="text-white xl:text-lg 2xl:text-lg">Desenvolvedor FullStack experiente, com especialização na criação de portais de soluções CPaaS (As a Service), e profundo conhecimento no desenvolvimento de aplicações web utilizando React, .NET CORE API's RestFul. Além disso, possuo expertise na criação de soluções E-commerce, na elaboração de websites empresariais usando WordPress e na eficaz manutenção de sistemas ativos no setor de Telecomunicações.</p>
+
+                                <button class="bg-lime-600 hover:bg-lime-700 py-3 px-4 text-white cursor-pointer text-center inline-flex items-center me-2 mb-2 font-medium rounded-lg text-md mt-12">Curriculo completo</button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="pt-8 pb-8">
+                            <img class="w-screen object-cover object-top rounded-2xl " 
+                            src={Laptop} alt=""/>
+                        </div>
+
+                    </div>
+                </div>         
+                
+                <div className="mt-12">
+                    <Tecnologias/>  
+                </div>                     
             </div>
-        </div>
-    );
+        </section>
+    )
 }

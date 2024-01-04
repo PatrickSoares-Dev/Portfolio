@@ -1,54 +1,82 @@
-import dotNet from '../../assets/icons/dotNet.png';
-import cssImage from '../../assets/icons/css.png'
-import figmaImage from '../../assets/icons/figma.png';
-import gitImage from '../../assets/icons/git.png';
-import htmlImage from '../../assets/icons/html.png';
-import jsImage from '../../assets/icons/js.png';
-import mysqlImage from '../../assets/icons/mysql.png';
+//Front-end
 import reactImage from '../../assets/icons/React-icon.png';
+import jsImage from '../../assets/icons/js.png';
+import htmlImage from '../../assets/icons/html.png';
+import aspnetMvcImage from '../../assets/icons/ASPNETCOREMVC.png';
+
+//Backend
+import entityImage from '../../assets/icons/entity.png';
+import dotNetImagem from '../../assets/icons/dotnet.png';
+// import dotNetImagem from '/vercel/path0/src/assets/icons/dotnet.png';
 import sqlServeImage from '../../assets/icons/sqlserver.png';
-import tailwindImage from '../../assets/icons/tailwind.png';
-import viteJsImage from '../../assets/icons/Vitejs-logo.png';
-import nodeJsImage from '../../assets/icons/nodejs.png';
+import restImage from '../../assets/icons/RESTFulAPI.png';
+
+//Ferramentas
+import gitImage from '../../assets/icons/git.png';
+import dockerImage from '../../assets/icons/docker.png';
+import postmanImage from '../../assets/icons/postman.png';
+import swaggerImage from '../../assets/icons/swagger.png';
+import figmaImage from '../../assets/icons/figma.png';
 import wordpressImage from '../../assets/icons/wordpress.png';
 
 export default function Tecnologias() {
     return (
-        <div className="justify-center items-center align mb-8">
-            <div className="text-gray-100 text-center align-center">
-                <div class="grid grid-cols-2 xl:ml-48 xl:mr-48 2xl:ml-64 2xl:mr-64">
-                    <h2 className="text-center font-normal align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
-                        Front-end
-                    </h2> 
+        <section id='technologies'>
+            <div className="justify-center items-center ">
+                <h2 className="xl:text-2xl 2xl:text-4xl text-center align-center  font-bold b-opacity-20 rounded-lg p-4 text-white">
+                    Tecnologias e Ferramentas
+                </h2>   
+                <div className="text-gray-100 text-center align-center mt-8 mb-8">
+                    <div class="grid grid-cols-2 xl:ml-48 xl:mr-48 2xl:ml-64 2xl:mr-64">
+                        <h2 className="text-center font-bold align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
+                            Front-end
+                        </h2> 
 
-                    <h2 className="text-center font-normal align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
-                        Backend
-                    </h2> 
+                        <h2 className="text-center font-bold align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
+                            Backend
+                        </h2> 
 
-                    <div className="shadow-lg bg-black ml-6 mr-6 rounded-lg bg-opacity-10 border border-black border-opacity-15">
-                        <div className='grid grid-cols-4 p-6 align-center text-center items-center align'>  
-                        
-                            <div><img src={reactImage} height="40" width="80" alt="" /></div>
-                            <div><img src={jsImage} height="40" width="80" alt=""/></div>
-                            <div><img src={htmlImage} height="40" width="80" alt=""/></div>
-                            <div><img src={cssImage} height="40" width="80" alt=""/></div>
-                                                                                                                
+                        <div className="shadow-lg bg-gray-800 rounded-2xl bg-opacity-50 border-b border-lime-400 border-opacity-100 2xl:ml-6 2xl:mr-6 xl:mr-6">
+                            <div className='grid grid-cols-4 p-6 content-normal justify-items-center'>  
+                            
+                                <div><img src={reactImage} height="40" width="80" alt="" /></div>
+                                <div><img src={jsImage} height="40" width="80" alt=""/></div>
+                                <div><img src={aspnetMvcImage} height="40" width="80" alt=""/></div>
+                                <div><img src={htmlImage} height="40" width="80" alt=""/></div>
+                                                                                                                    
+                            </div>
                         </div>
-                    </div>
-                   
-                    <div className="shadow-lg bg-black ml-6 mr-6 rounded-lg bg-opacity-10 border border-black border-opacity-15">
-                        <div className='grid grid-cols-4 p-6 align-center text-center items-center align'>  
-                        
-                            <div><img src={dotNet} height="40" width="80" alt="" /></div>
-                            <div><img src={nodeJsImage} height="40" width="80" alt=""/></div>
-                            <div><img src={sqlServeImage} height="40" width="80" alt=""/></div>
-                            <div><img src={cssImage} height="40" width="80" alt=""/></div>
-                                                                                                                
+                    
+                        <div className="shadow-lg bg-gray-800 rounded-2xl bg-opacity-50 border-b border-lime-400 border-opacity-100 2xl:ml-6 xl:ml-6 pr-2">
+                            <div className='grid grid-cols-4 p-6 content-normal justify-items-center'>  
+                            
+                                <div><img src={dotNetImagem} height="40" width="80" alt="" /></div>
+                                <div><img src={entityImage} height="40" width="80" alt=""/></div>      
+                                <div><img src={restImage} height="40" width="80" alt=""/></div>
+                                <div><img src={sqlServeImage} height="40" width="92" alt=""/></div>
+                                                                                                                    
+                            </div>
                         </div>
-                    </div>
 
-                </div>                           
+                    </div>                                              
+                </div>
+
+                <h2 className="text-center text-white font-bold align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
+                        Ferramentas
+                </h2>                    
+                <div class="text-white text-center align-center justify-center items-center xl:mt-8 xl:mr-60 xl:ml-48 2xl:mt-8 2xl:mr-64 2xl:ml-64">                    
+                    <div className="shadow-lg bg-gray-800 xl:ml-0 ml-6 mr-6 rounded-2xl bg-opacity-50 border-b border-lime-400 border-opacity-100 xl:w-full">
+                        <div className='grid grid-cols-6 p-6 content-normal justify-items-center'>                          
+                            <div><img src={gitImage} height="40" width="80" alt="" /></div>
+                            <div><img src={dockerImage} height="40" width="80" alt=""/></div>
+                            <div><img src={postmanImage} height="40" width="80" alt=""/></div>
+                            <div><img src={swaggerImage} height="40" width="80" alt=""/></div>
+                            <div><img src={figmaImage} height="40" width="80" alt=""/></div>
+                            <div><img src={wordpressImage} height="40" width="80" alt=""/></div>                             
+                        </div>
+                    </div>                                       
+                </div>   
             </div>
-        </div>
+        </section>        
     );
 }
