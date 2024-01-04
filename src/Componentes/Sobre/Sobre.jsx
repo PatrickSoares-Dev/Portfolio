@@ -1,7 +1,14 @@
 import Tecnologias from "../../Componentes/Tecnologias/Tecnologias";
 import Laptop from "/src/assets/img/laptop.png"
+import CurriculumPDF from "/src/assets/Curriculo_Patrick.pdf";
 
 export default function Sobre(){
+    const handleDownload = () => {        
+        const link = document.createElement("a");
+        link.href = CurriculumPDF;
+        link.download = "Curriculo_Patrick_Oliveira.pdf";
+        link.click();
+      };
     return (
         <section id="sobre">
             <div className="justify-center items-center bg-gray-900 pb-12 ">
@@ -45,7 +52,12 @@ export default function Sobre(){
 
                                 <p className="text-white xl:text-lg 2xl:text-lg">Desenvolvedor FullStack experiente, com especialização na criação de portais de soluções CPaaS (As a Service), e profundo conhecimento no desenvolvimento de aplicações web utilizando React, .NET CORE API's RestFul. Além disso, possuo expertise na criação de soluções E-commerce, na elaboração de websites empresariais usando WordPress e na eficaz manutenção de sistemas ativos no setor de Telecomunicações.</p>
 
-                                <button class="bg-lime-600 hover:bg-lime-700 py-3 px-4 text-white cursor-pointer text-center inline-flex items-center me-2 mb-2 font-medium rounded-lg text-md mt-12">Curriculo completo</button>
+                                <button
+                                    onClick={handleDownload}
+                                    className="bg-lime-600 hover:bg-lime-700 py-3 px-4 text-white cursor-pointer text-center inline-flex items-center me-2 mb-2 font-medium rounded-lg text-md mt-12"
+                                >
+                                    Currículo completo
+                                </button>
                             </div>
                             
                         </div>
