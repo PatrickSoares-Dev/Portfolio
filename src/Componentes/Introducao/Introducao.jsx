@@ -7,7 +7,7 @@ export default function Introducao(){
                 <div class="mx-auto max-w-5xl">
                     <div className="flex h-screen flex-col items-center justify-center gap-3">
 
-                        <h2 className='text-center text-6xl font-bold md:text-md sm:text-5xl text-white '>
+                        <h2 className='text-center text-6xl font-bold md:text-5xl sm:text-5xl text-white '>
                             Patrick Oliveira
                         </h2>
                         

@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
     return (
-        <section id="Footer" className='bg-gray-900'>
+        <section id="footer" className='bg-gray-900'>
             <footer className="border-b border-gray-200 fixed-bottom">
                 <div className="w-full max-w-screen-xl mx-auto p-2 py-6">
                     <div className="flex items-center justify-center">                        

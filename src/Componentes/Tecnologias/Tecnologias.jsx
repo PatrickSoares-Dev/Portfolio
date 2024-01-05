@@ -23,16 +23,16 @@ export default function Tecnologias() {
     return (
         <section id='technologies'>
             <div className="justify-center items-center ">
-                <h2 className="xl:text-2xl 2xl:text-4xl text-center align-center  font-bold b-opacity-20 rounded-lg p-4 text-white">
+                <h2 className="text-4xl md:text-2xl sm:text-4xl text-center align-center font-bold b-opacity-20 rounded-lg p-4 text-white">
                     Tecnologias e Ferramentas
                 </h2>   
                 <div className="text-gray-100 text-center align-center mt-8 mb-8">
                     <div class="grid grid-cols-2 xl:ml-48 xl:mr-48 2xl:ml-64 2xl:mr-64">
-                        <h2 className="text-center font-bold align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
+                        <h2 className="text-center font-bold align-center bg-opacity-10 mb-8 text-3xl md:text-2xl sm:text-4xl">
                             Front-end
                         </h2> 
 
-                        <h2 className="text-center font-bold align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
+                        <h2 className="text-center font-bold align-center bg-opacity-10 mb-8 text-3xl md:text-2xl sm:text-4xl">
                             Backend
                         </h2> 
 
@@ -61,7 +61,7 @@ export default function Tecnologias() {
                     </div>                                              
                 </div>
 
-                <h2 className="text-center text-white font-bold align-center bg-opacity-10 mb-8 2xl:text-2xl xl:text-2xl">
+                <h2 className="text-center text-white font-bold align-center bg-opacity-10 mb-8 text-3xl md:text-2xl sm:text-4xl">
                         Ferramentas
                 </h2>                    
                 <div class="text-white text-center align-center justify-center items-center xl:mt-8 xl:mr-60 xl:ml-48 2xl:mt-8 2xl:mr-64 2xl:ml-64">                    

@@ -8,8 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Projetos() {
   return (
     <section id="projects">
-      <div className="bg-gray-900 pb-8">
-        <h2 className="xl:text-2xl 2xl:text-4xl text-center align-center  font-bold b-opacity-20 rounded-lg p-4 mt-16 text-white">
+      <div className="bg-gray-900 pb-8 pt-8">
+        <h2 className="text-3xl md:text-2xl sm:text-4xl text-center align-center  font-bold b-opacity-20 rounded-lg p-4 mt-18 text-white">
           Projetos
         </h2>
         <div className="mx-auto max-w-5xl mb-8 mt-8 ">

@@ -13,7 +13,7 @@ export default function Experiencia() {
             <div className="justify-center items-center bg-gray-800 bg-opacity-50">
                 <div className="text-gray-100">
                     <div className="">
-                        <h2 className="xl:text-2xl 2xl:text-4xl text-center align-center  font-bold b-opacity-20 rounded-lg p-4 mt-8">
+                        <h2 className="text-3xl md:text-2xl sm:text-4xl text-center align-center  font-bold b-opacity-20 rounded-lg p-4 mt-8">
                             Experiência
                         </h2>                    
                             <ol className="border-l border-neutral-300 dark:border-lime-400 bg-black p-4 bg-opacity-10 xl:ml-48 xl:mr-48 xl:mt-12 xl:mb-12 2xl:ml-72 2xl:mr-72 2xl:mt-12 2xl:mb-12 rounded-2xl shadow-md ">
@@ -27,7 +27,7 @@ export default function Experiencia() {
                                     </div>
                                     <div className="mb-2 ml-4 mt-2">
                                         <h4 className="mb-1.5 text-xl font-semibold">Telecall - Analista de Sistemas I</h4>
-                                        <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                                        <p className="mb-3 text-white dark:text-white">
                                             <p className='text-lime-400 font-semibold mb-2'>Linguagens e Tecnologias Utilizadas:</p>
                                             <p className='text-white font-semibold'>C#, .NET CORE, Entity Framework, ASP.NET MVC, JavaScript, React, Node.js, SQL Server</p>
                                             <br />

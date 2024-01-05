@@ -88,9 +88,9 @@ export default function Contato() {
     }
 
     return (
-        <section id="Contato">
+        <section id="contato">
             <div className="justify-center items-center pb-16 pt-12 bg-gray-800 mx-auto max-w-screen-md">
-                <h2 className="text-white xl:text-2xl 2xl:text-4xl text-center align-center font-bold b-opacity-20 rounded-lg p-4 mt-4 ">Contato</h2>
+                <h2 className="text-white text-3xl md:text-2xl sm:text-4xl text-center align-center font-bold b-opacity-20 rounded-lg p-4 mt-4 ">Contato</h2>
 
                 <p className="mb-12 font-normal text-center text-base text-white sm:text-xl">
                     Meu portfólio despertou seu <span className="font-semi-bold text-lime-400">interesse?</span> Estou aberto para discutir <span className="font-semi-bold text-lime-400">oportunidades</span> de colaboração, <span className="font-semi-bold text-lime-400">entrevistas ou processos seletivos</span>. Vamos nos conectar!
@@ -122,7 +122,7 @@ export default function Contato() {
                         {successMessage && <div className="text-white bg-lime-600 rounded-2xl p-4">{successMessage}</div>}
 
                         <div>
-                            <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Seu email</label>
+                            <label htmlFor="email" className="block mb-2 text-lg md:text-lg sm:text-lg font-medium text-white">Seu email</label>
                             <input type="email" id="email"
                                 className="w-full text-sm text-gray-900 bg-gray-0 rounded-lg shadow-sm border border-gray-300 focus:ring-lime-500 focus:border-lime-500"
                                 placeholder="Seu e-mail (para entrar em contato)"
@@ -132,7 +132,7 @@ export default function Contato() {
                         </div>
 
                         <div>
-                            <label htmlFor="subject" className="block mb-2 text-sm font-medium text-white">Assunto: </label>
+                            <label htmlFor="subject" className="block mb-2 text-lg md:text-lg sm:text-lg font-medium text-white">Assunto: </label>
                             <input type="text" id="subject"
                                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-lime-500 focus:border-lime-500"
                                 placeholder="Assunto (entrevista, oportunidade, etc.)"
@@ -142,7 +142,7 @@ export default function Contato() {
                         </div>
 
                         <div className="sm:col-span-2">
-                            <label htmlFor="message" className="block mb-2 text-sm font-medium text-white">Sua mensagem</label>
+                            <label htmlFor="message" className="block mb-2 text-lg md:text-lg sm:text-lg  font-medium text-white">Sua mensagem</label>
                             <textarea id="message" rows="6"
                                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-lime-500 focus:border-lime-500"
                                 placeholder="Sua Mensagem (inclua empresa, informações adicionais, etc.)"
@@ -151,7 +151,7 @@ export default function Contato() {
                             ></textarea>
                         </div>
 
-                        <button type="submit" id="btnSubmit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit hover:bg-lime-700 focus:ring-4 focus:outline-none focus:ring-lime-300">Envie uma mensagem</button>
+                        <button type="submit" id="btnSubmit" className="py-3 px-5 text-md md:text-md sm:text-md font-medium text-center text-white rounded-lg sm:w-fit hover:bg-lime-700 focus:ring-4 focus:outline-none focus:ring-lime-300">Envie uma mensagem</button>
                     </form>
                 </div>
             </div>
